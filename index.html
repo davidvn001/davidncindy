@@ -278,7 +278,11 @@
     font-weight: 700;
     line-height: 1em;
 }
-
+.image-grid-item {
+  height: 300px; /* Adjust this value to your preferred height */
+  object-fit: cover;
+  width: 100%;
+}
 .lb-data .lb-number {
     display: none !important;
     clear: left;
@@ -1266,7 +1270,7 @@ em {
           <div class="col-sm-4">
             <img src="./f410218f2e5b7b0772a214d4ac3411cc130.webp"
                  alt="Image 1"
-                 class="img-fluid rounded"
+                 class="img-fluid rounded image-grid-item"
                  onclick="showImageModal(this.src)">
           </div>
 
@@ -1274,7 +1278,7 @@ em {
           <div class="col-sm-4">
             <img src="./3d9455264f304216473a3e227d8a802b205.webp"
                  alt="Image 2"
-                 class="img-fluid rounded"
+                 class="img-fluid rounded image-grid-item"
                  onclick="showImageModal(this.src)">
           </div>
 
@@ -1282,7 +1286,7 @@ em {
           <div class="col-sm-4">
             <img src="./f6bdaa2c5f274b4231fdaa9c1e52e811685.webp"
                  alt="Image 3"
-                 class="img-fluid rounded"
+                 class="img-fluid rounded image-grid-item"
                  onclick="showImageModal(this.src)">
           </div>
         </div>
